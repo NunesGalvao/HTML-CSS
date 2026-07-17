@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'love';
+    src: url(fonts/Filxgirl.TTF) format('truetype'), url();
+    /*
+      Tipos de Formato
+    - opentype (otf)
+    - truetypr (ttf)
+    - embedded-opentype
+    - trutype-aat (apple advanced typography)
+    - svg
+
+    Caso queira colocar outra fonte, vc pode usar outra url:
+    url(fiolex_girls/Filxgirl.TTF) format('truetype'), url(fiolex_girls/Filxgirl.OTF) format('opertype');
+
+
+    */
+}
+
+body {
+    font-family: 'love', Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}

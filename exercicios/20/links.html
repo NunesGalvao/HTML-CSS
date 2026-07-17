@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(1, 1, 251);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(237, 141, 31);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        a:active {
+            background-color: yellow;
+        }
+
+        .especial::before {
+            content: '➡️';
+            background-color: bisque;
+            font-weight: 700;
+        }
+
+        .especial::after {
+            content: '⬅️';
+            background-color: bisque;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Personalizando Links</h1>
+    <ul type="square">
+        <li><a href="https://www.instagram.com/" target="_blank">Meu instagram</a></li>
+        <li><a href="https://github.com/cod3rcursos/curso-java" target="_blank">Meu repositório no git hub</a></li>
+        <li><a href="https://www.youtube.com/results?search_query=desmascarando" target="_blank" class="especial">melhor
+                canal de
+                política do youtube</a>
+        </li>
+    </ul>
+</body>
+
+</html>
